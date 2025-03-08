@@ -1,0 +1,1079 @@
+.Bookings {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+  color: #0d0d0d;
+}
+.Bookings .Landing-header {
+  width: 100%;
+  height: 632px;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 0px;
+  top: 0;
+  background-color: #0d0d0d;
+  background-image: url("/assets/Bookings/MJ Records Design Group 38.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: border-box;
+  background-attachment: fixed;
+  z-index: 1000;
+}
+.Bookings .Landing-header .tab-buttons {
+  display: flex;
+  gap: 10px;
+  margin: auto;
+  margin-left: 122px;
+  margin-top: 223px;
+}
+.Bookings .Landing-header .tab-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+}
+.Bookings .Landing-header .tab-buttons button:focus {
+  outline: none;
+}
+.Bookings .Landing-header .tab-buttons button:hover {
+  outline: none;
+}
+.Bookings .Landing-header .tab-buttons .tab-button.active {
+  border-bottom: 2px solid #ffa000;
+  color: #ffa000;
+  outline: none;
+  font-weight: bolder;
+}
+.Bookings .Landing-header .tab-buttons .tab-button:hover {
+  outline: none;
+}
+.Bookings .Landing-header .Tab-headers {
+  margin-top: 46px;
+  margin-left: 122px;
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+  left: 122px;
+  text-align: left;
+}
+.Bookings .Landing-header .booking-wrapper {
+  width: 1216px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FCFCFC;
+  border-radius: 20px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  margin: auto;
+  margin-top: 64px;
+  margin-bottom: 105px;
+}
+.Bookings .Landing-header .booking-wrapper .Details {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #0d0d0d;
+}
+.Bookings .Landing-header .booking-wrapper .Details h2 {
+  font-size: 32px;
+  text-align: left;
+  margin: auto;
+  margin-left: 53px;
+  margin-top: 69px;
+}
+.Bookings .Landing-header .booking-wrapper .Details form {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  margin-top: 24px;
+  flex-direction: column;
+  display: flex;
+}
+.Bookings .Landing-header .booking-wrapper .Details form .datacapture {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: inline-flex;
+}
+.Bookings .Landing-header .booking-wrapper .Details form .datacapture .field-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 585px;
+  height: auto;
+  margin-top: 0px;
+}
+.Bookings .Landing-header .booking-wrapper .Details form .datacapture .field-area label {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  margin: auto;
+  margin-top: 24px;
+  margin-left: 0px;
+}
+.Bookings .Landing-header .booking-wrapper .Details form .datacapture .field-area input {
+  width: 497px;
+  height: 36px;
+  border: none;
+  border-bottom: 1px solid #49454F;
+  background-color: transparent;
+  margin: auto;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.Bookings .Landing-header .booking-wrapper .Details form .datacapture .field-area input:active {
+  outline: none;
+}
+.Bookings .Landing-header .booking-wrapper .Details form .datacapture .field-area input:focus {
+  outline: none;
+}
+.Bookings .Landing-header .booking-wrapper .Details form .datacapture .left {
+  margin-left: 53px;
+}
+.Bookings .Landing-header .booking-wrapper .Details form .datacapture .right {
+  margin-right: 0px;
+}
+.Bookings .Landing-header .booking-wrapper .Details form .media-files {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  margin-top: 32px;
+}
+.Bookings .Landing-header .booking-wrapper .Details form .media-files .file-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 300px;
+  height: 100%;
+}
+.Bookings .Landing-header .booking-wrapper .Details form .media-files .file-area label {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  margin: auto;
+  margin-top: 24px;
+  margin-left: 0px;
+}
+.Bookings .Landing-header .booking-wrapper .Details form .media-files .file-area input {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 200px;
+  border: 2px dashed #ccc;
+  cursor: pointer;
+}
+.Bookings .Landing-header .booking-wrapper .Details form .media-files .file-area input:active {
+  outline: none;
+}
+.Bookings .Landing-header .booking-wrapper .Details form .media-files .file-area input:focus {
+  outline: none;
+}
+.Bookings .Landing-header .booking-wrapper .Details button {
+  width: 497px;
+  height: 51px;
+  background-color: #DFBA45;
+  box-shadow: rgba(53, 4, 4, 0.15) 0px 48px 100px 0px;
+  margin: auto;
+  margin-top: 73px;
+  margin-bottom: 50px;
+  display: flex;
+  margin-right: 76px;
+}
+.Bookings .Landing-header .booking-wrapper .Details button p {
+  color: #fff;
+  font-size: 14px;
+  margin: auto;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking h2 {
+  font-size: 32px;
+  text-align: left;
+  margin: auto;
+  margin-left: 53px;
+  margin-top: 69px;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .fee {
+  text-align: left;
+  margin: auto;
+  margin-top: 16px;
+  margin-left: 53px;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .fee strong {
+  color: #EE050A;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .left {
+  width: 596px;
+  height: 461px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-left: 50px;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .left .Calendar {
+  width: 392px;
+  height: auto;
+  border: none;
+  background-color: transparent;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .left .highlight-available-date {
+  color: #DFBA45;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right {
+  width: 596px;
+  height: 461px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-right: 50px;
+  border-left: 2px solid #DFBA45;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right ul {
+  height: 100%;
+  width: 596px;
+  display: block;
+  padding: 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right ul li {
+  list-style: none;
+  height: 77px;
+  width: 439px;
+  background-color: #F6EBBE;
+  color: #0d0d0d;
+  margin: auto;
+  margin-left: 40px;
+  margin-top: 11px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  /* Add this class for highlighting the selected slot */
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right ul li .slot-info {
+  margin: auto;
+  display: flex;
+  height: auto;
+  width: 90%;
+  align-items: left;
+  justify-content: left;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right ul li .slot-info strong {
+  font-size: 15px;
+  font-weight: 600px;
+  text-align: left;
+  margin: auto;
+  margin-left: 5px;
+  margin-top: 28px;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right ul li .slot-info p {
+  font-size: 15px;
+  text-align: left;
+  margin: auto;
+  margin-top: 28px;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right ul li:hover {
+  background-color: #DFBA45;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right ul li.selected-slot {
+  background-color: #DFBA45 !important;
+  transition: 0.3s ease-in-out;
+  color: #fff;
+  font-weight: 600;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right ul .emptySlot strong {
+  color: #DFBA45;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper {
+  width: 100%;
+  height: 436px;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0d0d0d;
+  text-align: left;
+  margin: auto;
+  margin-left: 50px;
+  margin-top: 65px;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form {
+  height: 241px;
+  margin: auto;
+  margin-top: 24px;
+  margin-left: 53px;
+  display: inline-flex;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 585px;
+  height: 100%;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area label {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  margin: auto;
+  margin-top: 24px;
+  margin-left: 0px;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area input {
+  width: 497px;
+  height: 36px;
+  margin: auto;
+  margin-left: 0px;
+  border: none;
+  border-bottom: 1px solid #49454F;
+  background-color: transparent;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area input:active {
+  outline: none;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area input:focus {
+  outline: none;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area select {
+  width: 497px;
+  height: 36px;
+  margin: auto;
+  margin-left: 0px;
+  border: none;
+  border-bottom: 1px solid #49454F;
+  background-color: transparent;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area select:active {
+  outline: none;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area select:focus {
+  outline: none;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area .payment-status {
+  display: none;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area .error-message {
+  display: none;
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .Book-slot-btn {
+  width: 497px;
+  height: 51px;
+  background-color: #DFBA45;
+  box-shadow: rgba(53, 4, 4, 0.15) 0px 48px 100px 0px;
+  margin: auto;
+  margin-right: 70px;
+  margin-top: 43px;
+  margin-bottom: 50px;
+  display: flex;
+}
+.Bookings .Landing-header .booking-wrapper .studio-booking .Book-slot-btn p {
+  color: #fff;
+  font-size: 14px;
+  margin: auto;
+}
+.Bookings .mid-section {
+  width: 100%;
+  min-height: 914px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 0px;
+  top: 0;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #F6EBBE;
+}
+.Bookings .contact {
+  width: 100%;
+  min-height: 514px;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 111px;
+  top: 0;
+}
+.Bookings .contact h2 {
+  font-size: 32px;
+  text-align: left;
+  margin: auto;
+  margin-left: 122px;
+  margin-top: 69px;
+}
+.Bookings .contact p {
+  font-size: 18px;
+  text-align: left;
+  margin: auto;
+  margin-left: 122px;
+  margin-top: 24px;
+}
+.Bookings .contact .contacts-wrapper {
+  width: 100%;
+  min-height: 423px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 78px;
+  top: 0;
+}
+.Bookings .contact .contacts-wrapper .left {
+  height: 100%;
+  width: 534px;
+  margin: auto;
+  margin-left: 122px;
+}
+.Bookings .contact .contacts-wrapper .gmaps {
+  width: 674px;
+  height: 423px;
+  border-radius: 10px;
+  margin: auto;
+  margin-right: 102px;
+  margin-top: 0px;
+  top: 0;
+}
+.Bookings .contact .contacts-wrapper .gmaps iframe {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+}
+.Bookings .contact .contacts-wrapper .info {
+  height: 67px;
+  width: 100%;
+  display: inline-flex;
+  margin: auto;
+  margin-top: 32px;
+}
+.Bookings .contact .contacts-wrapper .info .icon {
+  height: 59px;
+  width: 59px;
+  background-color: #0d0d0d;
+  display: flex;
+  border-radius: 100%;
+  box-shadow: rgba(53, 4, 4, 0.15) 0px 48px 100px 0px;
+}
+.Bookings .contact .contacts-wrapper .info .icon img {
+  height: 32px;
+  width: 32px;
+  margin: auto;
+}
+.Bookings .contact .contacts-wrapper .info p {
+  margin: auto;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .Bookings {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .Bookings .Landing-header {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0px;
+    top: 0;
+    background-color: #0d0d0d;
+    background-image: url("/assets/Bookings/MJ Records Design Group 38.png");
+    background-position: top;
+    background-repeat: repeat;
+    background-size: contain;
+    background-origin: border-box;
+    background-attachment: fixed;
+    z-index: 1000;
+  }
+  .Bookings .Landing-header .tab-buttons {
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    margin-left: 16px;
+    margin-top: 80px;
+  }
+  .Bookings .Landing-header .tab-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+  }
+  .Bookings .Landing-header .tab-buttons button:focus {
+    outline: none;
+  }
+  .Bookings .Landing-header .tab-buttons button:hover {
+    outline: none;
+  }
+  .Bookings .Landing-header .tab-buttons .tab-button.active {
+    border-bottom: 2px solid #ffa000;
+    color: #ffa000;
+    outline: none;
+    font-weight: bolder;
+  }
+  .Bookings .Landing-header .tab-buttons .tab-button:hover {
+    outline: none;
+  }
+  .Bookings .Landing-header .Tab-headers {
+    margin-top: 46px;
+    margin-left: 16px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    left: 122px;
+    text-align: left;
+  }
+  .Bookings .Landing-header .booking-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCFCFC;
+    border-radius: 20px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin: auto;
+    margin-top: 64px;
+    margin-bottom: 105px;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #0d0d0d;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details h2 {
+    font-size: 32px;
+    text-align: left;
+    margin: auto;
+    margin-left: 16px;
+    margin-top: 24px;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details form {
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    margin-top: 24px;
+    flex-direction: column;
+    display: flex;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details form .datacapture {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    flex-direction: column;
+    display: inline-flex;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details form .datacapture .field-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details form .datacapture .field-area label {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    margin: auto;
+    margin-top: 24px;
+    margin-left: 0px;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details form .datacapture .field-area input {
+    width: 90%;
+    height: 36px;
+    border: none;
+    border-bottom: 1px solid #49454F;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details form .datacapture .field-area input:active {
+    outline: none;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details form .datacapture .field-area input:focus {
+    outline: none;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details form .datacapture .left {
+    margin-left: 16px;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details form .datacapture .right {
+    margin-left: 16px;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details form .media-files {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    margin-top: 32px;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details form .media-files .file-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 300px;
+    height: 100%;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details form .media-files .file-area label {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    margin: auto;
+    margin-top: 24px;
+    margin-left: 0px;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details form .media-files .file-area input {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 200px;
+    border: 2px dashed #ccc;
+    cursor: pointer;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details form .media-files .file-area input:active {
+    outline: none;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details form .media-files .file-area input:focus {
+    outline: none;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details button {
+    width: 90%;
+    height: 51px;
+    background-color: #DFBA45;
+    box-shadow: rgba(53, 4, 4, 0.15) 0px 48px 100px 0px;
+    margin: auto;
+    margin-top: 73px;
+    margin-bottom: 50px;
+    display: flex;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .Bookings .Landing-header .booking-wrapper .Details button p {
+    color: #fff;
+    font-size: 14px;
+    margin: auto;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking h2 {
+    font-size: 32px;
+    text-align: left;
+    margin: auto;
+    margin-left: 16px;
+    margin-top: 24px;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .fee {
+    text-align: left;
+    margin: auto;
+    margin-top: 16px;
+    margin-left: 16px;
+    font-size: 14px;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .fee strong {
+    color: #EE050A;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .left {
+    width: 596px;
+    height: 461px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-left: 16px;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .left .Calendar {
+    width: 90vw;
+    height: auto;
+    border: none;
+    background-color: transparent;
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 24px;
+    align-self: center;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .left .highlight-available-date {
+    color: #DFBA45;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right {
+    width: 100vw;
+    height: auto;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-right: 50px;
+    margin-top: -84px;
+    border-top: 2px solid #DFBA45;
+    border-left: none;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right ul {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: block;
+    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right ul li {
+    list-style: none;
+    height: 77px;
+    width: 90vw;
+    background-color: #F6EBBE;
+    color: #0d0d0d;
+    margin: auto;
+    margin-left: 16px;
+    margin-top: 11px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right ul li .slot-info {
+    margin: auto;
+    display: flex;
+    height: auto;
+    width: 90%;
+    align-items: left;
+    justify-content: left;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right ul li .slot-info strong {
+    font-size: 15px;
+    font-weight: 600px;
+    text-align: left;
+    margin: auto;
+    margin-left: 5px;
+    margin-top: 28px;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right ul li .slot-info p {
+    font-size: 15px;
+    text-align: left;
+    margin: auto;
+    margin-top: 28px;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right ul li:hover {
+    background-color: #DFBA45;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right ul li.selected {
+    background-color: #e0f7fa;
+    border: 1px solid #00796b;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right ul .emptySlot {
+    text-wrap: wrap;
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .calendar-area .right ul .emptySlot strong {
+    color: #DFBA45;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0d0d0d;
+    text-align: left;
+    margin: auto;
+    margin-left: 16px;
+    margin-top: 65px;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 24px;
+    margin-left: 16px;
+    flex-direction: column;
+    display: inline-flex;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area label {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    margin: auto;
+    margin-top: 24px;
+    margin-left: 0px;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area input {
+    width: 90%;
+    height: 36px;
+    margin: auto;
+    margin-left: 0px;
+    border: none;
+    border-bottom: 1px solid #49454F;
+    background-color: transparent;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area input:active {
+    outline: none;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area input:focus {
+    outline: none;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area select {
+    width: 497px;
+    height: 36px;
+    margin: auto;
+    margin-left: 0px;
+    border: none;
+    border-bottom: 1px solid #49454F;
+    background-color: transparent;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area select:active {
+    outline: none;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area select:focus {
+    outline: none;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area .payment-status {
+    display: none;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .booking-details-wrapper form .field-area .error-message {
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .Book-slot-btn {
+    width: 90%;
+    height: 51px;
+    background-color: #DFBA45;
+    box-shadow: rgba(53, 4, 4, 0.15) 0px 48px 100px 0px;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 43px;
+    margin-bottom: 50px;
+    display: flex;
+  }
+  .Bookings .Landing-header .booking-wrapper .studio-booking .Book-slot-btn p {
+    color: #fff;
+    font-size: 14px;
+    margin: auto;
+  }
+  .Bookings .mid-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0px;
+    top: 0;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #F6EBBE;
+  }
+  .Bookings .contact {
+    width: 100%;
+    min-height: 514px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 111px;
+    top: 0;
+  }
+  .Bookings .contact h2 {
+    font-size: 32px;
+    text-align: left;
+    margin: auto;
+    margin-left: 16px;
+    margin-top: 69px;
+  }
+  .Bookings .contact p {
+    font-size: 14px;
+    text-align: left;
+    margin: auto;
+    margin-left: 16px;
+    margin-top: 24px;
+  }
+  .Bookings .contact .contacts-wrapper {
+    width: 100%;
+    min-height: 423px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 78px;
+    top: 0;
+  }
+  .Bookings .contact .contacts-wrapper .left {
+    height: 100%;
+    width: 534px;
+    margin: auto;
+    margin-left: 16px;
+    margin-top: -50px;
+  }
+  .Bookings .contact .contacts-wrapper .gmaps {
+    width: 90%;
+    height: 423px;
+    border-radius: 10px;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 32px;
+    top: 0;
+  }
+  .Bookings .contact .contacts-wrapper .gmaps iframe {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+  }
+  .Bookings .contact .contacts-wrapper .info {
+    height: 67px;
+    width: 100%;
+    display: inline-flex;
+    margin: auto;
+    margin-top: 24px;
+  }
+  .Bookings .contact .contacts-wrapper .info .icon {
+    height: 59px;
+    width: 59px;
+    background-color: #0d0d0d;
+    display: flex;
+    border-radius: 100%;
+    box-shadow: rgba(53, 4, 4, 0.15) 0px 48px 100px 0px;
+  }
+  .Bookings .contact .contacts-wrapper .info .icon img {
+    height: 32px;
+    width: 32px;
+    margin: auto;
+  }
+  .Bookings .contact .contacts-wrapper .info p {
+    margin: auto;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=AboutStyle.css.map */

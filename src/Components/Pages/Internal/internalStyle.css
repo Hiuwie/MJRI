@@ -1,0 +1,846 @@
+.Signin {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/assets/Services/photo_2024-12-17 17.02.02.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.Signin .login-area {
+  width: 852px;
+  height: 576px;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F6EBBE;
+  border-radius: 28px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  margin: auto;
+  margin-top: 186px;
+}
+.Signin .login-area h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 58px;
+}
+.Signin .login-area form {
+  width: 585px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 47px;
+}
+.Signin .login-area form label {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  margin: auto;
+  margin-top: 24px;
+  margin-left: 0px;
+}
+.Signin .login-area form input {
+  width: 100%;
+  height: 36px;
+  border: none;
+  border-bottom: 1px solid #49454F;
+  background-color: transparent;
+}
+.Signin .login-area form input:active {
+  outline: none;
+}
+.Signin .login-area form input:focus {
+  outline: none;
+}
+.Signin .login-area form button {
+  width: 588px;
+  height: 51px;
+  background-color: #DFBA45;
+  box-shadow: rgba(53, 4, 4, 0.15) 0px 48px 100px 0px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 24px;
+  display: flex;
+}
+.Signin .login-area form button p {
+  color: #fff;
+  font-size: 14px;
+  margin: auto;
+}
+.Signin .login-area form .sec-button {
+  width: 588px;
+  height: 51px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: px;
+  display: flex;
+  border: 2px solid #DFBA45;
+}
+.Signin .login-area form .sec-button p {
+  color: #DFBA45;
+  font-size: 14px;
+  margin: auto;
+}
+
+.header {
+  width: 100%;
+  height: 128px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d0d0d;
+  color: #fff;
+  margin: auto;
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+}
+.header .logo-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  margin: auto;
+  margin-left: 96px;
+}
+.header .logo-wrapper .logo-area {
+  display: flex;
+  height: 105px;
+  width: 147px;
+}
+.header .logo-wrapper .logo-area img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.header .logo-wrapper h1 {
+  text-align: left;
+  font-size: 16px;
+  margin-left: 0px;
+}
+.header .user-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  margin: auto;
+  margin-right: 122px;
+}
+.header .user-info button {
+  margin-left: 44px;
+  color: #DFBA45;
+  border: 2px solid #DFBA45;
+  background-color: transparent;
+}
+
+.intfooter {
+  width: 100%;
+  height: 128px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d0d0d;
+  color: #fff;
+  margin: auto;
+  margin-bottom: 0;
+  bottom: 0;
+}
+.intfooter ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  margin: auto;
+  margin-left: 96px;
+}
+.intfooter ul li {
+  list-style: none;
+  margin: auto;
+  margin-left: 29px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.intfooter p {
+  margin: auto;
+  margin-right: 121px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.intfooter p a {
+  color: #DFBA45;
+}
+
+.Producer-availability {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 125px;
+}
+.Producer-availability .jumbotron {
+  width: 100vw;
+  height: 182px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d0d0d;
+  background-image: url("/assets/Bookings/MJ Records Design Group 38.png");
+  background-attachment: fixed;
+  background-blend-mode: difference;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 0px 0px 10px 10px;
+}
+.Producer-availability .jumbotron h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: left;
+  margin: auto;
+  margin-left: 122px;
+  color: #fff;
+}
+.Producer-availability .tab-buttons {
+  display: flex;
+  gap: 10px;
+  margin: auto;
+  margin-left: 122px;
+  margin-top: 31px;
+}
+.Producer-availability .tab-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0px;
+  cursor: pointer;
+}
+.Producer-availability .tab-buttons button:focus {
+  outline: none;
+}
+.Producer-availability .tab-buttons button:hover {
+  outline: none;
+}
+.Producer-availability .tab-buttons .tab-button.active {
+  border-bottom: 2px solid #ffa000;
+  color: #ffa000;
+  outline: none;
+  font-weight: bolder;
+}
+.Producer-availability .tab-buttons .tab-button:hover {
+  outline: none;
+}
+.Producer-availability .tab-content {
+  margin-top: 20px;
+  display: flex;
+  background-color: transparent;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.Producer-availability .tab-content .calendar-container {
+  padding: 10px;
+  background: transparent;
+  color: #0d0d0d;
+  min-width: 100%;
+  height: auto;
+  margin: auto;
+}
+.Producer-availability .overlay-button {
+  width: 197px;
+  height: 51px;
+  box-shadow: rgba(53, 4, 4, 0.15) 0px 48px 100px 0px;
+  margin: auto;
+  margin-right: 122px;
+}
+.Producer-availability .overlay-button button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 197px;
+  height: 51px;
+  background-color: #DFBA45;
+}
+.Producer-availability .overlay-button button img {
+  height: 18px;
+  width: 18px;
+  margin: auto;
+}
+.Producer-availability .overlay-button button p {
+  color: #fff;
+  font-size: 14px;
+  margin: auto;
+}
+.Producer-availability .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: block;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow-y: scroll;
+}
+.Producer-availability .overlay .overlay-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 1293px;
+  text-align: center;
+  height: auto;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 36px;
+}
+.Producer-availability .overlay .overlay-content .overlay-header {
+  height: 130px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Producer-availability .overlay .overlay-content .overlay-header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0d0d0d;
+  text-align: left;
+  margin: auto;
+  margin-left: 50px;
+}
+.Producer-availability .overlay .overlay-content .overlay-header .toggle-container {
+  height: 130px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-right: -250px;
+}
+.Producer-availability .overlay .overlay-content .overlay-header .toggle-container p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0d0d0d;
+  text-align: left;
+  margin: auto;
+  margin-left: 0px;
+}
+.Producer-availability .overlay .overlay-content .overlay-header .toggle-container .switch {
+  position: relative;
+  display: inline-block;
+  width: 58px;
+  height: 32px;
+  margin-left: 16px;
+  /* Rounded sliders */
+}
+.Producer-availability .overlay .overlay-content .overlay-header .toggle-container .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.Producer-availability .overlay .overlay-content .overlay-header .toggle-container .switch input:checked + .slider {
+  background-color: #DFBA45;
+}
+.Producer-availability .overlay .overlay-content .overlay-header .toggle-container .switch input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.Producer-availability .overlay .overlay-content .overlay-header .toggle-container .switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.Producer-availability .overlay .overlay-content .overlay-header .toggle-container .switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.Producer-availability .overlay .overlay-content .overlay-header .toggle-container .switch .slider.round {
+  border-radius: 34px;
+}
+.Producer-availability .overlay .overlay-content .overlay-header .toggle-container .switch .slider.round:before {
+  border-radius: 50%;
+}
+.Producer-availability .overlay .overlay-content .overlay-header .close-overlay {
+  margin: auto;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-color: transparent;
+  color: #d32f2f;
+  border: none;
+  cursor: pointer;
+}
+.Producer-availability .overlay .overlay-content .overlay-header .close-overlay:hover {
+  color: #DFBA45;
+}
+.Producer-availability .overlay .overlay-content .producer-availability {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.Producer-availability .overlay .overlay-content .producer-availability .left {
+  width: 596px;
+  height: 461px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-left: 50px;
+}
+.Producer-availability .overlay .overlay-content .producer-availability .left .Calendar {
+  width: 392px;
+  height: auto;
+  border: none;
+  background-color: transparent;
+}
+.Producer-availability .overlay .overlay-content .producer-availability .right {
+  width: 596px;
+  height: 461px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-right: 50px;
+  border-left: 2px solid #DFBA45;
+}
+.Producer-availability .overlay .overlay-content .producer-availability .right .times {
+  height: auto;
+  width: 100%;
+  margin: auto;
+  margin-top: 0px;
+  margin-left: 18px;
+}
+.Producer-availability .overlay .overlay-content .producer-availability .right .times .time-input {
+  display: block;
+  width: 585px;
+  margin-top: 56px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Producer-availability .overlay .overlay-content .producer-availability .right .times .time-input label {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 24px;
+}
+.Producer-availability .overlay .overlay-content .producer-availability .right .times .time-input select {
+  width: 585px;
+  height: 36px;
+  border: none;
+  border-bottom: 1px solid #49454F;
+  background-color: transparent;
+}
+.Producer-availability .overlay .overlay-content .producer-availability .right .times .time-input select:active {
+  outline: none;
+}
+.Producer-availability .overlay .overlay-content .producer-availability .right .times .time-input select:focus {
+  outline: none;
+}
+.Producer-availability .overlay .overlay-content .producer-availability .right .avail-self {
+  width: 588px;
+  height: 51px;
+  background-color: #DFBA45;
+  box-shadow: rgba(53, 4, 4, 0.15) 0px 48px 100px 0px;
+  margin: auto;
+  margin-left: 18px;
+  display: flex;
+}
+.Producer-availability .overlay .overlay-content .producer-availability .right .avail-self p {
+  color: #fff;
+  font-size: 14px;
+  margin: auto;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .calendar-area {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .calendar-area .left {
+  width: 596px;
+  height: 461px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-left: 50px;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .calendar-area .left .Calendar {
+  width: 392px;
+  height: auto;
+  border: none;
+  background-color: transparent;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .calendar-area .right {
+  width: 596px;
+  height: 461px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-right: 50px;
+  border-left: 2px solid #DFBA45;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .calendar-area .right ul {
+  height: 100%;
+  width: 596px;
+  display: block;
+  padding: 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .calendar-area .right ul li {
+  list-style: none;
+  height: 77px;
+  width: 439px;
+  background-color: #F6EBBE;
+  color: #0d0d0d;
+  margin: auto;
+  margin-left: 40px;
+  margin-top: 11px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .calendar-area .right ul li .slot-info {
+  margin: auto;
+  display: flex;
+  height: auto;
+  width: 90%;
+  align-items: left;
+  justify-content: left;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .calendar-area .right ul li .slot-info strong {
+  font-size: 15px;
+  font-weight: 600px;
+  text-align: left;
+  margin: auto;
+  margin-left: 5px;
+  margin-top: 28px;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .calendar-area .right ul li .slot-info p {
+  font-size: 15px;
+  text-align: left;
+  margin: auto;
+  margin-top: 28px;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .calendar-area .right ul li:hover {
+  background-color: #DFBA45;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .calendar-area .right ul li.selected {
+  background-color: #e0f7fa;
+  border: 1px solid #00796b;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .booking-details-wrapper {
+  width: 100%;
+  height: 436px;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .booking-details-wrapper h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0d0d0d;
+  text-align: left;
+  margin: auto;
+  margin-left: 50px;
+  margin-top: 65px;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .booking-details-wrapper form {
+  width: 1200px;
+  height: 241px;
+  margin: auto;
+  margin-top: 55px;
+  display: inline-flex;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .booking-details-wrapper form .left {
+  margin-left: 30px;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .booking-details-wrapper form .right {
+  margin-right: 0px;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .booking-details-wrapper form .field-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 585px;
+  height: 100%;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .booking-details-wrapper form .field-area label {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  margin: auto;
+  margin-top: 24px;
+  margin-left: 0px;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .booking-details-wrapper form .field-area input {
+  width: 585px;
+  height: 36px;
+  border: none;
+  border-bottom: 1px solid #49454F;
+  background-color: transparent;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .booking-details-wrapper form .field-area input:active {
+  outline: none;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .booking-details-wrapper form .field-area input:focus {
+  outline: none;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .booking-details-wrapper form .field-area select {
+  width: 585px;
+  height: 36px;
+  border: none;
+  border-bottom: 1px solid #49454F;
+  background-color: transparent;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .booking-details-wrapper form .field-area select:active {
+  outline: none;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .booking-details-wrapper form .field-area select:focus {
+  outline: none;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .Book-slot-btn {
+  width: 588px;
+  height: 51px;
+  background-color: #DFBA45;
+  box-shadow: rgba(53, 4, 4, 0.15) 0px 48px 100px 0px;
+  margin: auto;
+  margin-right: 48px;
+  display: flex;
+}
+.Producer-availability .overlay .overlay-content .booking-for-artist .Book-slot-btn p {
+  color: #fff;
+  font-size: 14px;
+  margin: auto;
+}
+.Producer-availability .table-structure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+.Producer-availability .table-structure .table-header-structur {
+  width: 100%;
+  height: 120px;
+  background-color: transparent;
+  text-align: left;
+  margin-bottom: 29px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.Producer-availability .table-structure .table-header-structur h3 {
+  margin: auto;
+  margin-top: 24px;
+  margin-left: 122px;
+  font-size: 1.5rem;
+}
+.Producer-availability .table-structure .table-header-structur .search-input {
+  height: 32px;
+  width: 324px;
+  margin: auto;
+  border-radius: 20px;
+  margin-right: 120px;
+}
+.Producer-availability .table-structure .dataTable {
+  width: 100vw;
+  height: 904px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 0px 0px 10px 10px;
+  overflow: auto;
+}
+.Producer-availability .table-structure .dataTable table {
+  width: 1216px;
+  height: auto;
+  margin: auto;
+  left: 121px;
+  margin-top: 0px;
+  margin-left: 121px;
+  padding-right: 30px;
+  text-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.Producer-availability .table-structure .dataTable table thead {
+  width: 100vw;
+  height: 63px;
+  background-color: #E9CD5F;
+  text-align: left;
+  margin-bottom: 29px;
+  justify-content: center;
+  align-items: center;
+}
+.Producer-availability .table-structure .dataTable table thead tr {
+  margin: auto;
+  text-align: left;
+  margin-left: 24px;
+  color: #0d0d0d;
+  font-weight: bold;
+}
+.Producer-availability .table-structure .dataTable table thead tr th {
+  margin-left: 24px;
+  text-align: left;
+  font-size: 20px;
+  padding: 6px;
+}
+.Producer-availability .table-structure .dataTable table tbody {
+  width: 100vw;
+  background-color: #F6EBBE;
+  text-align: left;
+  color: #0d0d0d;
+  margin-bottom: 29px;
+  justify-content: center;
+  align-items: center;
+}
+.Producer-availability .table-structure .dataTable table tbody tr {
+  padding: 24px;
+  margin: 12px;
+  margin: auto;
+  height: 63px;
+}
+.Producer-availability .table-structure .dataTable table tbody tr td {
+  margin-left: 24px;
+  text-align: left;
+  font-size: 16px;
+  padding: 6px;
+}
+.Producer-availability .table-structure .dataTable table tbody tr td select {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
+  color: #EE050A;
+  font-weight: bold;
+  /* Dropdown Arrow Customization */
+  /* Custom Select when Opened */
+  /* Customize Options */
+}
+.Producer-availability .table-structure .dataTable table tbody tr td select:focus {
+  outline: none;
+}
+.Producer-availability .table-structure .dataTable table tbody tr td select option {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+}
+.Producer-availability .table-structure .dataTable table tbody tr td select option:hover {
+  background-color: #E9CD5F;
+}
+.Producer-availability .table-structure .dataTable table tbody tr td select .custom-dropdown {
+  background-color: #dfba45; /* Change Background Color */
+  color: white; /* Change Text Color */
+  font-weight: bold;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+.Producer-availability .table-structure .dataTable table tbody tr td select .custom-dropdown::-ms-expand {
+  display: none; /* Hide default dropdown arrow */
+}
+.Producer-availability .table-structure .dataTable table tbody tr td select .custom-dropdown:focus {
+  outline: none;
+  background-color: #c89e30;
+}
+.Producer-availability .table-structure .dataTable table tbody tr td select .custom-dropdown option {
+  background: white; /* Background color */
+  color: black; /* Text color */
+  font-weight: bold;
+  padding: 10px;
+}
+.Producer-availability .table-structure .dataTable table tbody tr:hover {
+  background-color: #E9CD5F;
+}
+.Producer-availability .table-structure .dataTable .pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 0px;
+}
+.Producer-availability .table-structure .dataTable .pagination-controls button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #E9CD5F;
+}
+.Producer-availability .table-structure .dataTable .pagination-controls button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=internalStyle.css.map */

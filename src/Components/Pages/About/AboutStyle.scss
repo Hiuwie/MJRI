@@ -1,0 +1,1493 @@
+.Bookings{
+    width:100vw;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    overflow: scroll;
+    color:#0d0d0d;
+
+    .Landing-header{
+        width:100%;
+        height:632px;
+        display:block;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        margin:auto;
+        margin-top: 0px;
+        top:0;
+
+        background-color:#0d0d0d;
+        background-image: url("/assets/Bookings/MJ Records Design Group 38.png");
+        // filter: grayscale(100%);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-origin: border-box;
+        background-attachment:fixed;
+        z-index: 1000;
+
+
+        .tab-buttons {
+            display: flex;
+            gap: 10px;
+            margin:auto;
+            margin-left: 122px;
+            margin-top: 223px;
+    
+            button {
+                padding: 10px 20px;
+                font-size: 16px;
+                background-color: transparent;
+                border-bottom: 1px solid #ddd;
+                border-radius: 0px;
+                cursor: pointer;
+                color:#fff;
+                font-weight:600;
+    
+               
+    
+                &:focus{
+                   outline: none;
+                }
+    
+                &:hover{
+                    outline: none;
+                }
+            }
+    
+            .tab-button.active {
+                // background-color: ;
+                border-bottom: 2px solid #ffa000;
+                color: #ffa000;
+                outline:none;
+                font-weight:bolder;
+            }
+    
+            .tab-button:hover {
+                outline: none;
+            }
+    
+    
+            
+        }
+
+        .Tab-headers{
+            // margin:auto;
+            margin-top:46px;
+            margin-left:122px;
+            color:#fff;
+            font-size:48px;
+            font-weight:bold;
+            left:122px;
+            text-align:left;
+        }
+
+        .booking-wrapper{
+            width:1216px;
+            height:auto;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+
+            background-color:#FCFCFC;
+            border-radius: 20px;
+            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+            margin: auto;
+            margin-top: 64px;
+            margin-bottom: 105px;
+
+            
+
+            .Details{
+                width:100%;
+                height:auto;
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                justify-content:center;
+                color: #0d0d0d;
+
+                h2{
+                    font-size: 32px;
+                    text-align: left;
+                    
+                    margin:auto;
+                    margin-left: 53px;
+                    margin-top: 69px;
+                }
+
+                form{
+                    width:1200px;
+                    height:auto;
+                    margin: auto;
+                    margin-top:24px;
+                    flex-direction:column;
+
+
+                    // background-color: #ffc107;
+                    display: flex;
+                    
+
+                    .datacapture{
+                        width:100%;
+                        height:100%;
+                        margin: auto;
+                        // margin-top:55px;
+                        // flex-direction:column;
+                        display: inline-flex;
+
+                            .field-area{
+                                display: flex;
+                                flex-direction:column;
+                                align-items:center;
+                                justify-content:center;
+                                margin:auto;
+                                width:585px;
+                                height: auto;
+                                margin-top: 0px;
+
+                                label{
+                                    font-size: 14px;
+                                    font-weight:700;
+                                    text-align: left;
+                                    margin: auto;
+                                    margin-top: 24px;
+                                    margin-left: 0px;
+                                }
+                    
+                                input{
+                                    width: 497px;
+                                    height: 36px;
+                                    border:none;
+                                    border-bottom: 1px solid #49454F;
+                                    background-color: transparent;
+                                    margin: auto;
+                                    margin-top: 0px;
+                                    margin-left: 0px;
+                    
+                                    &:active{
+                                        outline:none;
+                                    }
+                    
+                                    &:focus{
+                                        outline:none;
+                                    }
+                                }
+                            }
+
+                            .left{
+                                // background-color: cadetblue;
+                                margin-left: 53px;
+
+                            }
+
+                            .right{
+                                // background-color: rgb(95, 160, 105);
+                                margin-right: 0px;
+                            }
+
+                    }
+
+                    .media-files{
+                        display: flex;
+                        flex-direction:row;
+                        align-items:center;
+                        justify-content:center;
+                        margin:auto;
+                        width:100%;
+                        // height: 100%;
+                        // background-color: #00796b;
+
+                        margin-top:32px;
+
+
+                        .file-area{
+
+                            display: flex;
+                            flex-direction:column;
+                            align-items:center;
+                            justify-content:center;
+                            margin:auto;
+                            width:300px;
+                            height: 100%;
+                            // background-color: #5f7900;
+    
+                            label{
+                                font-size: 14px;
+                                font-weight:700;
+                                text-align: left;
+                                margin: auto;
+                                margin-top: 24px;
+                                margin-left: 0px;
+
+                                // display: inline-block;
+                                // padding: 0.5em 1em;
+                                // background-color: #007bff;
+                                // color: #fff;
+                                // border-radius: 5px;
+                                // cursor: pointer;
+                                // text-align: center;
+                                // font-size: 1rem;
+                                // transition: background-color 0.3s ease;
+
+                                // &:hover {
+                                //     background-color: #0056b3;
+                                //   }
+
+
+                                // &:active {
+                                //     background-color: #004085;
+                                //   }
+                                // &:focus {
+                                //     outline: 2px solid #80bdff;
+                                //     outline-offset: 2px;
+                                //   }
+                            }
+                
+                            input{
+                                // width: 100%;
+                                // height: 100%;
+                                // border:none;
+                            
+                                background-color: transparent;
+                                // margin: auto;
+                                // margin-top: 0px;
+                                // margin-left: 0px;
+
+                                width: 300px;
+                                height: 200px;
+                                margin: 20px auto;
+                                text-align: center;
+                                line-height: 200px;
+                                border: 2px dashed #ccc;
+                                cursor: pointer;
+                
+                                &:active{
+                                    outline:none;
+                                }
+                
+                                &:focus{
+                                    outline:none;
+                                }
+
+                                
+                            }
+                        }
+                    }
+
+                  
+                }
+
+                
+
+                button{
+                    width: 497px;
+                    height:51px;
+                    background-color: #DFBA45;
+    
+                    box-shadow: rgba(53, 4, 4, 0.15) 0px 48px 100px 0px;
+                    margin: auto;
+                    margin-top: 73px;
+                    margin-bottom: 50px;
+                    display: flex;
+                    margin-right:76px;
+    
+                    p{
+                        color: #fff;
+                        font-size: 14px;
+                        margin: auto;
+                    }
+    
+                }
+
+            }
+
+             // "booking-for-artist" view
+             .studio-booking{
+                width:100% ;
+                height:auto;
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                justify-content:center;
+                margin:auto;
+
+                // background-color: aquamarine;
+
+                h2{
+                    font-size: 32px;
+                    text-align: left;
+                    
+                    margin:auto;
+                    margin-left: 53px;
+                    margin-top: 69px;
+                }
+
+                .fee{
+                    strong{
+                        color:#EE050A;
+                    }
+                    text-align: left;
+                    
+                    margin:auto;
+                    margin-top:16px;
+                    margin-left: 53px;
+                    
+                }
+
+                .calendar-area{
+
+                    width:100% ;
+                    height:auto;
+                    display:flex;
+                    flex-direction:row;
+                    align-items:center;
+                    justify-content:center;
+                    margin:auto;
+
+       
+
+                    .left{
+                        width:596px;
+                        height:461px;
+                        display:flex;
+                        flex-direction:column;
+                        align-items:center;
+                        justify-content:center;
+                        margin:auto;
+                        margin-left:50px;
+
+                        .Calendar{
+                            width:392px;
+                            height:auto;
+                            border: none;
+                            background-color: transparent;
+
+                        }
+                    
+                        .highlight-available-date{
+                            color: #DFBA45;
+                        }
+                    }
+
+                    .right{
+
+                        width:596px;
+                        height:461px;
+                        display:flex;
+                        flex-direction:column;
+                        align-items:center;
+                        justify-content:center;
+                        margin:auto;
+                        margin-right:50px;
+
+                        border-left: 2px solid #DFBA45;
+                        
+
+                        ul{
+                            // background-color: #d32f2f;
+                            height: 100%;
+                            width: 596px;
+                            // margin: auto;
+                            display: block;
+                            padding: 0px;
+                            flex-direction:column;
+                            align-items:center;
+                            justify-content:center;
+                            
+
+                            li{
+                                list-style: none;
+                                
+                                height:77px;
+                                width:439px;
+                                background-color: #F6EBBE;
+                                color:#0d0d0d;
+                                margin: auto;
+                                margin-left: 40px;
+                                margin-top: 11px;
+                                border-radius: 10px;
+                                cursor: pointer;
+                                box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+                                .slot-info{
+
+                                    margin: auto;
+                                    // background-color: green;
+                                    display: flex;
+                                    height:auto;
+                                    width:90%;
+                        
+                                    // margin-left: 11px;
+                                  
+
+                                    align-items:left;
+                                    justify-content:left;
+                                    
+
+                                    strong{
+                                        font-size: 15px;
+                                        font-weight:600px;
+                                        text-align:left;
+                                        margin: auto;
+                                        margin-left:5px;
+                                        margin-top:28px ;
+                                       
+
+                                    }
+
+                                    p{
+                                        font-size: 15px;
+                                        text-align:left;
+                                        margin: auto;
+                                        margin-top:28px ;
+                                    }
+                                }
+
+                                &:hover{
+                                    background-color: #DFBA45;
+                                }
+
+                                /* Add this class for highlighting the selected slot */
+                                &.selected-slot {
+                                    background-color: #DFBA45 !important;
+                                    // border: 2px solid #EE050A !important;
+                                    // box-shadow: 0px 4px 10px #EE050A;
+                                    transition: 0.3s ease-in-out;
+
+                                    color:#fff;
+                                    font-weight:600;
+                                }
+  
+                            }
+
+                            .emptySlot{
+                                strong{
+                                    color:#DFBA45;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .booking-details-wrapper{
+                    width:100% ;
+                    height:436px;
+                    display:block;
+                    flex-direction:column;
+                    align-items:center;
+                    justify-content:center;
+                    margin:auto;
+    
+                    // background-color: rgb(195, 190, 241);
+
+                    h3{
+                        font-size: 24px;
+                        font-weight: bold;
+                        color:#0d0d0d;
+                        text-align: left;
+                        margin: auto;
+                        margin-left: 50px;
+                        margin-top: 65px;
+                    }
+
+                    form{
+                        // width:1200px;
+                        // width:585px;
+                        height:241px;
+                        margin: auto;
+                        margin-top:24px;
+                        margin-left: 53px;
+
+                        // background-color: #ffc107;
+
+                        display: inline-flex;
+            
+                        // .left{
+                        //     background-color: cadetblue;
+                        //     margin-left: 53px;
+
+                        // }
+
+                        // .right{
+                        //     background-color: rgb(95, 160, 105);
+                        //     margin-right: 0px;
+                        // }
+
+                        .field-area{
+                            display: flex;
+                            flex-direction:column;
+                            align-items:center;
+                            justify-content:center;
+                            margin:auto;
+                            width:585px;
+                            height: 100%;
+
+                            label{
+                                font-size: 14px;
+                                font-weight:700;
+                                text-align: left;
+                                margin: auto;
+                                margin-top: 24px;
+                                margin-left: 0px;
+                            }
+                
+                            input{
+                                width: 497px;
+                                height: 36px;
+                                margin: auto;
+                                margin-left:0px;
+                                border:none;
+                                border-bottom: 1px solid #49454F;
+                                background-color: transparent;
+                
+                                &:active{
+                                    outline:none;
+                                }
+                
+                                &:focus{
+                                    outline:none;
+                                }
+                            }
+
+                            select{
+                                width: 497px;
+                                height: 36px;
+                                margin: auto;
+                                margin-left:0px;
+                                border:none;
+                                border-bottom: 1px solid #49454F;
+                                background-color: transparent;
+                
+                                &:active{
+                                    outline:none;
+                                }
+                
+                                &:focus{
+                                    outline:none;
+                                }
+                            }
+
+                            .payment-status{
+                                display:none;
+                            }
+
+                            .error-message {
+                                display: none;
+                                color: red;
+                                font-size: 12px;
+                                margin-top: 5px;
+                              }
+                              
+                        }
+
+                   
+
+                    }
+                }
+                .Book-slot-btn{
+                            width: 497px;
+                            height:51px;
+                            background-color: #DFBA45;
+
+                            box-shadow: rgba(53, 4, 4, 0.15) 0px 48px 100px 0px;
+                            margin: auto;
+                            margin-right: 70px;
+                            margin-top: 43px;
+                            margin-bottom: 50px;
+                            
+                        
+                         
+                            display: flex;
+
+                            p{
+                                color: #fff;
+                                font-size: 14px;
+                                margin: auto;
+                            }
+
+                }
+            }
+        }
+    }
+
+    .mid-section{
+        width:100%;
+        min-height:914px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        margin:auto;
+        margin-top: 0px;
+        top:0;
+        border-radius:0px 0px 10px 10px;
+
+        background-color:#F6EBBE;
+    }
+
+    .contact{
+        width:100%;
+        min-height:514px;
+        display:block;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        margin:auto;
+        margin-top: 0px;
+        margin-bottom:111px;
+        top:0;
+
+        h2{
+            font-size: 32px;
+            text-align: left;
+            
+            margin:auto;
+            margin-left: 122px;
+            margin-top: 69px;
+        }
+
+        p{
+            font-size: 18px;
+            text-align: left;
+            
+            margin:auto;
+            margin-left: 122px;
+            margin-top: 24px;
+        
+        }
+
+        .contacts-wrapper{
+                width:100%;
+                min-height:423px;
+                display:flex;
+                flex-direction:row;
+                align-items:center;
+                justify-content:center;
+                margin:auto;
+                margin-top: 78px;
+                
+                top:0;
+
+        
+
+            .left{
+
+                height: 100%;
+                width:534px;
+                margin:auto;
+                margin-left:122px;
+               
+            }
+
+            .gmaps{
+                width:674px;
+                height:423px;
+             
+             
+                border-radius: 10px;
+                margin: auto;
+                margin-right: 102px;
+                margin-top: 0px;
+                top:0;
+
+
+                iframe{
+                    height:100%;
+                    width:100%;
+                    border: none;
+                    border-radius: 10px;
+                }
+
+                
+            }
+
+            .info{
+                height:67px;
+                width:100%;
+                // background-color: #1a11c9;
+                display:inline-flex;
+                margin:auto;
+                margin-top: 32px;
+
+                .icon{
+                    height:59px;
+                    width:59px;
+                    background-color: #0d0d0d;
+                    display:flex;
+                    border-radius: 100%;
+                    box-shadow: rgba(53, 4, 4, 0.15) 0px 48px 100px 0px;
+
+
+                    img{
+                        height:32px;
+                        width:32px;
+                        margin:auto;
+                    }
+                }
+
+                p{
+                    margin:auto;
+                    margin-left:20px;
+                    font-size:18px;
+                }
+            }
+        }
+       
+    }
+
+}
+
+@media (max-width: 767px) {
+    .Bookings{
+        width:100vw;
+        min-height:100vh;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    
+        .Landing-header{
+            width:100%;
+            height:100vh;
+            display:block;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            margin:auto;
+            margin-top: 0px;
+            top:0;
+    
+            background-color:#0d0d0d;
+            background-image: url("/assets/Bookings/MJ Records Design Group 38.png");
+            // filter: grayscale(100%);
+            background-position: top;
+            background-repeat: repeat;
+            background-size: contain;
+            background-origin: border-box;
+            background-attachment:fixed;
+            z-index: 1000;
+    
+    
+            .tab-buttons {
+                display: flex;
+                gap: 10px;
+                margin:auto;
+                margin-left: 16px;
+                margin-top: 80px;
+        
+                button {
+                    padding: 10px 20px;
+                    font-size: 16px;
+                    background-color: transparent;
+                    border-bottom: 1px solid #ddd;
+                    border-radius: 0px;
+                    cursor: pointer;
+                    color:#fff;
+                    font-weight:600;
+        
+                   
+        
+                    &:focus{
+                       outline: none;
+                    }
+        
+                    &:hover{
+                        outline: none;
+                    }
+                }
+        
+                .tab-button.active {
+                    // background-color: ;
+                    border-bottom: 2px solid #ffa000;
+                    color: #ffa000;
+                    outline:none;
+                    font-weight:bolder;
+                }
+        
+                .tab-button:hover {
+                    outline: none;
+                }
+        
+        
+                
+            }
+    
+            .Tab-headers{
+                // margin:auto;
+                margin-top:46px;
+                margin-left:16px;
+                color:#fff;
+                font-size:32px;
+                font-weight:bold;
+                left:122px;
+                text-align:left;
+            }
+    
+            .booking-wrapper{
+                width:100%;
+                height:auto;
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                justify-content:center;
+    
+                background-color:#FCFCFC;
+                border-radius: 20px;
+                box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+                margin: auto;
+                margin-top: 64px;
+                margin-bottom: 105px;
+    
+                
+    
+                .Details{
+                    width:100%;
+                    height:auto;
+                    display:flex;
+                    flex-direction:column;
+                    align-items:center;
+                    justify-content:center;
+                    color: #0d0d0d;
+    
+                    h2{
+                        font-size: 32px;
+                        text-align: left;
+                        
+                        margin:auto;
+                        margin-left: 16px;
+                        margin-top: 24px;
+                    }
+    
+                    form{
+                        width:100vw;
+                        height:auto;
+                        margin: auto;
+                        margin-top:24px;
+                        flex-direction:column;
+    
+    
+                        // background-color: #ffc107;
+                        display: flex;
+                        
+    
+                        .datacapture{
+                            width:100%;
+                            height:100%;
+                            margin: auto;
+                            // margin-top:55px;
+                            flex-direction:column;
+                            display: inline-flex;
+    
+                                .field-area{
+                                    display: flex;
+                                    flex-direction:column;
+                                    align-items:center;
+                                    justify-content:center;
+                                    margin:auto;
+                                    width:100%;
+                                    height: auto;
+                                    margin-top: 0px;
+    
+                                    label{
+                                        font-size: 14px;
+                                        font-weight:700;
+                                        text-align: left;
+                                        margin: auto;
+                                        margin-top: 24px;
+                                        margin-left: 0px;
+                                    }
+                        
+                                    input{
+                                        width: 90%;
+                                        height: 36px;
+                                        border:none;
+                                        border-bottom: 1px solid #49454F;
+                                        background-color: transparent;
+                                        margin: auto;
+                                        margin-top: 0px;
+                                        margin-left: 0px;
+                        
+                                        &:active{
+                                            outline:none;
+                                        }
+                        
+                                        &:focus{
+                                            outline:none;
+                                        }
+                                    }
+                                }
+    
+                                .left{
+                                    // background-color: cadetblue;
+                                    margin-left: 16px;
+    
+                                }
+    
+                                .right{
+                                    // background-color: rgb(95, 160, 105);
+                                    margin-left: 16px;
+                                }
+    
+                        }
+    
+                        .media-files{
+                            display: flex;
+                            flex-direction:row;
+                            align-items:center;
+                            justify-content:center;
+                            margin:auto;
+                            width:100%;
+                            // height: 100%;
+                            // background-color: #00796b;
+    
+                            margin-top:32px;
+    
+    
+                            .file-area{
+    
+                                display: flex;
+                                flex-direction:column;
+                                align-items:center;
+                                justify-content:center;
+                                margin:auto;
+                                width:300px;
+                                height: 100%;
+                                // background-color: #5f7900;
+        
+                                label{
+                                    font-size: 14px;
+                                    font-weight:700;
+                                    text-align: left;
+                                    margin: auto;
+                                    margin-top: 24px;
+                                    margin-left: 0px;
+    
+                                    // display: inline-block;
+                                    // padding: 0.5em 1em;
+                                    // background-color: #007bff;
+                                    // color: #fff;
+                                    // border-radius: 5px;
+                                    // cursor: pointer;
+                                    // text-align: center;
+                                    // font-size: 1rem;
+                                    // transition: background-color 0.3s ease;
+    
+                                    // &:hover {
+                                    //     background-color: #0056b3;
+                                    //   }
+    
+    
+                                    // &:active {
+                                    //     background-color: #004085;
+                                    //   }
+                                    // &:focus {
+                                    //     outline: 2px solid #80bdff;
+                                    //     outline-offset: 2px;
+                                    //   }
+                                }
+                    
+                                input{
+                                    // width: 100%;
+                                    // height: 100%;
+                                    // border:none;
+                                
+                                    background-color: transparent;
+                                    // margin: auto;
+                                    // margin-top: 0px;
+                                    // margin-left: 0px;
+    
+                                    width: 300px;
+                                    height: 200px;
+                                    margin: 20px auto;
+                                    text-align: center;
+                                    line-height: 200px;
+                                    border: 2px dashed #ccc;
+                                    cursor: pointer;
+                    
+                                    &:active{
+                                        outline:none;
+                                    }
+                    
+                                    &:focus{
+                                        outline:none;
+                                    }
+    
+                                    
+                                }
+                            }
+                        }
+    
+                      
+                    }
+    
+                    
+    
+                    button{
+                        width: 90%;
+                        height:51px;
+                        background-color: #DFBA45;
+        
+                        box-shadow: rgba(53, 4, 4, 0.15) 0px 48px 100px 0px;
+                        margin: auto;
+                        margin-top: 73px;
+                        margin-bottom: 50px;
+                        display: flex;
+                        margin-right:0px;
+                        margin-left:0px;
+        
+                        p{
+                            color: #fff;
+                            font-size: 14px;
+                            margin: auto;
+                        }
+        
+                    }
+    
+                }
+    
+                 // "booking-for-artist" view
+                 .studio-booking{
+                    width:100% ;
+                    height:auto;
+                    display:flex;
+                    flex-direction:column;
+                    align-items:center;
+                    justify-content:center;
+                    margin:auto;
+    
+                    // background-color: aquamarine;
+    
+                    h2{
+                        font-size: 32px;
+                        text-align: left;
+                        
+                        margin:auto;
+                        margin-left: 16px;
+                        margin-top: 24px;
+                    }
+    
+                    .fee{
+                        strong{
+                            color:#EE050A;
+                        }
+                        text-align: left;
+                        
+                        margin:auto;
+                        margin-top:16px;
+                        margin-left: 16px;
+                        font-size:14px
+                        
+                    }
+    
+                    .calendar-area{
+    
+                        width:100%;
+                        height:auto;
+                        display:flex;
+                        flex-direction:column;
+                        align-items:center;
+                        justify-content:center;
+                        margin:auto;
+    
+           
+    
+                        .left{
+                            width:596px;
+                            height:461px;
+                            display:flex;
+                            flex-direction:column;
+                            align-items:center;
+                            justify-content:center;
+                            margin:auto;
+                            margin-left:16px;
+    
+                            .Calendar{
+                                width:90vw;
+                                height:auto;
+                                border: none;
+                                background-color: transparent;
+                                margin:auto;
+                                margin-left:0px;
+                                margin-top:24px;
+                                align-self:center;
+    
+                            }
+                        
+                            .highlight-available-date{
+                                color: #DFBA45;
+                            }
+                        }
+    
+                        .right{
+    
+                            width:100vw;
+                            height:auto;
+                            padding-bottom:32px;
+                            padding-top:32px;
+                            display:flex;
+                            flex-direction:column;
+                            align-items:center;
+                            justify-content:center;
+                            margin:auto;
+                            margin-right:50px;
+                            margin-top:-84px;
+    
+                            border-top: 2px solid #DFBA45;
+                            border-left: none;
+                            
+    
+                            ul{
+                                // background-color: #d32f2f;
+                                height: 100%;
+                                width: 100%;
+                                margin: auto;
+                                display: block;
+                                padding: 0px;
+                                flex-direction:column;
+                                align-items:center;
+                                justify-content:center;
+                                
+    
+                                li{
+                                    list-style: none;
+                                    
+                                    height:77px;
+                                    width:90vw;
+                                    background-color: #F6EBBE;
+                                    color:#0d0d0d;
+                                    margin: auto;
+                                    margin-left:16px;
+                                   
+                                    margin-top: 11px;
+                                    border-radius: 10px;
+                                    cursor: pointer;
+                                    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    
+                                    .slot-info{
+    
+                                        margin: auto;
+                                        // background-color: green;
+                                        display: flex;
+                                        height:auto;
+                                        width:90%;
+                            
+                                        // margin-left: 11px;
+                                      
+    
+                                        align-items:left;
+                                        justify-content:left;
+                                        
+    
+                                        strong{
+                                            font-size: 15px;
+                                            font-weight:600px;
+                                            text-align:left;
+                                            margin: auto;
+                                            margin-left:5px;
+                                            margin-top:28px ;
+                                           
+    
+                                        }
+    
+                                        p{
+                                            font-size: 15px;
+                                            text-align:left;
+                                            margin: auto;
+                                            margin-top:28px ;
+                                        }
+                                    }
+    
+                                    &:hover{
+                                        background-color: #DFBA45;
+                                    }
+    
+                                    &.selected {
+                                        background-color: #e0f7fa;
+                                        border: 1px solid #00796b;
+                                      }
+                                }
+    
+                                .emptySlot{
+                                   text-wrap: wrap;
+                                   font-size:12px;
+                                   text-align:center;
+                                   margin:auto;
+                                   margin-left:16px;
+                                   margin-right:16px;
+
+                                    strong{
+                                        color:#DFBA45;
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    .booking-details-wrapper{
+                        width:100% ;
+                        height:auto;
+                        display:block;
+                        flex-direction:column;
+                        align-items:center;
+                        justify-content:center;
+                        margin:auto;
+        
+                        // background-color: rgb(195, 190, 241);
+    
+                        h3{
+                            font-size: 24px;
+                            font-weight: bold;
+                            color:#0d0d0d;
+                            text-align: left;
+                            margin: auto;
+                            margin-left: 16px;
+                            margin-top: 65px;
+                        }
+    
+                        form{
+                            // width:1200px;
+                            width:100%;
+                            height:auto;
+                            margin: auto;
+                            margin-top:24px;
+                            margin-left: 16px;
+                            flex-direction:column;
+    
+                            // background-color: #ffc107;
+    
+                            display: inline-flex;
+                
+                            .field-area{
+                                display: flex;
+                                flex-direction:column;
+                                align-items:center;
+                                justify-content:center;
+                                margin:auto;
+                                width:100%;
+                                height: 100%;
+    
+                                label{
+                                    font-size: 14px;
+                                    font-weight:700;
+                                    text-align: left;
+                                    margin: auto;
+                                    margin-top: 24px;
+                                    margin-left: 0px;
+                                }
+                    
+                                input{
+                                    width: 90%;
+                                    height: 36px;
+                                    margin: auto;
+                                    margin-left:0px;
+                                    border:none;
+                                    border-bottom: 1px solid #49454F;
+                                    background-color: transparent;
+                    
+                                    &:active{
+                                        outline:none;
+                                    }
+                    
+                                    &:focus{
+                                        outline:none;
+                                    }
+                                }
+    
+                                select{
+                                    width: 497px;
+                                    height: 36px;
+                                    margin: auto;
+                                    margin-left:0px;
+                                    border:none;
+                                    border-bottom: 1px solid #49454F;
+                                    background-color: transparent;
+                    
+                                    &:active{
+                                        outline:none;
+                                    }
+                    
+                                    &:focus{
+                                        outline:none;
+                                    }
+                                }
+    
+                                .payment-status{
+                                    display:none;
+                                }
+    
+                                .error-message {
+                                    display: none;
+                                    color: red;
+                                    font-size: 12px;
+                                    margin-top: 5px;
+                                  }
+                                  
+                            }
+    
+                       
+    
+                        }
+                    }
+                    .Book-slot-btn{
+                                width: 90%;
+                                height:51px;
+                                background-color: #DFBA45;
+    
+                                box-shadow: rgba(53, 4, 4, 0.15) 0px 48px 100px 0px;
+                                margin: auto;
+                                margin-right: 0px;
+                                margin-left:0px;
+                                margin-top: 43px;
+                                margin-bottom: 50px;
+                                
+                            
+                             
+                                display: flex;
+    
+                                p{
+                                    color: #fff;
+                                    font-size: 14px;
+                                    margin: auto;
+                                }
+    
+                    }
+                }
+            }
+        }
+    
+        .mid-section{
+            width:100%;
+            height:auto;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            margin:auto;
+            margin-top: 0px;
+            top:0;
+            border-radius:0px 0px 10px 10px;
+    
+            background-color:#F6EBBE;
+        }
+    
+        .contact{
+            width:100%;
+            min-height:514px;
+            display:block;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            margin:auto;
+            margin-top: 0px;
+            margin-bottom:111px;
+            top:0;
+    
+            h2{
+                font-size: 32px;
+                text-align: left;
+                
+                margin:auto;
+                margin-left: 16px;
+                margin-top: 69px;
+            }
+    
+            p{
+                font-size: 14px;
+                text-align: left;
+                
+                margin:auto;
+                margin-left: 16px;
+                margin-top: 24px;
+            
+            }
+    
+            .contacts-wrapper{
+                    width:100%;
+                    min-height:423px;
+                    display:flex;
+                    flex-direction:column;
+                    align-items:center;
+                    justify-content:center;
+                    margin:auto;
+                    margin-top: 78px;
+                    
+                    top:0;
+    
+            
+    
+                .left{
+    
+                    height: 100%;
+                    width:534px;
+                    margin:auto;
+                    margin-left:16px;
+                    margin-top:-50px;
+                   
+                }
+    
+                .gmaps{
+                    width:90%;
+                    height:423px;
+                 
+                 
+                    border-radius: 10px;
+                    margin: auto;
+                    margin-right: 0px;
+                    margin-left:0px;
+                    margin-top: 32px;
+                    top:0;
+    
+    
+                    iframe{
+                        height:100%;
+                        width:100%;
+                        border: none;
+                        border-radius: 10px;
+                    }
+    
+                    
+                }
+    
+                .info{
+                    height:67px;
+                    width:100%;
+                    // background-color: #1a11c9;
+                    display:inline-flex;
+                    margin:auto;
+                    margin-top: 24px;
+    
+                    .icon{
+                        height:59px;
+                        width:59px;
+                        background-color: #0d0d0d;
+                        display:flex;
+                        border-radius: 100%;
+                        box-shadow: rgba(53, 4, 4, 0.15) 0px 48px 100px 0px;
+    
+    
+                        img{
+                            height:32px;
+                            width:32px;
+                            margin:auto;
+                        }
+                    }
+    
+                    p{
+                        margin:auto;
+                        margin-left:20px;
+                        font-size:14px;
+                    }
+                }
+            }
+           
+        }
+    }
+
+}
