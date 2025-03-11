@@ -197,7 +197,7 @@
     }
 
     .aboutus{
-        height: 675px;
+        height: 100vh;
         // background-color: aqua;
         flex-direction:row;
 
@@ -212,6 +212,8 @@
             margin: auto;
             margin-left:0;
 
+            margin-top: 100px;
+
             // background-color: rgb(176, 244, 75);
 
             h2{
@@ -221,11 +223,17 @@
                 font-size: 48px;
             }
 
+            h3{
+                color: #DFBA45;
+            }
+
             p{
                 text-align: left;
                 margin:auto;
                 margin-left: 129px;
                 font-size: 14px;
+                color:#4D4B4B;
+                font-weight:600;
             }
         }
 
@@ -236,6 +244,7 @@
             flex-direction:column;
             align-items:center;
             justify-content:center;
+            margin-top: 100px;
 
             
 
@@ -243,6 +252,9 @@
 
             .stackholders{
                 padding: 5px;
+                margin-left:150px;
+
+                // display:none;
 
                 .image-area{
                     background-color: #E9CD5F;
@@ -461,7 +473,7 @@
 
     .successStories{
 
-        height:866px;
+        height:900px;
        
         background-color: #DFBA45;
         display:block;
@@ -512,7 +524,21 @@
                 }
             }
         }
+
+        .our_artists{
+            text-align: left;
+            margin:auto;
+            margin-top:70px;
+            margin-bottom:64px;
+            margin-left: 129px;
+            font-size: 48px;
+            color:#fff;
+        }
+    
     }
+
+
+    // background-color: #DFBA45;
 
     /* Animation for sliding images */
     @keyframes slide {
@@ -520,7 +546,7 @@
         transform: translateX(0); /* Start at the initial position */
         }
         100% {
-        transform: translateX(-200%); /* Slide entire container to the left */
+        transform: translateX(-500%); /* Slide entire container to the left */
         }
     }
 
@@ -536,7 +562,7 @@
             display: flex;
             width: 499px;
             // gap: 20px; /* Add some spacing between images */
-            animation: slide 20s linear infinite; /* Infinite sliding animation */
+            animation: slide 50s linear infinite; /* Infinite sliding animation */
 
             .image-wrapper {
                 position: relative;
@@ -980,8 +1006,8 @@
         }
     
         .aboutus{
-            height: auto;
-            // background-color: aqua;
+            height: 115vh;
+            background-color: aqua;
             flex-direction:column;
     
               
@@ -1025,6 +1051,8 @@
                 justify-content:center;
     
                 // background-color: bisque;
+
+                display: none;
     
                 .stackholders{
                     padding: 5px;
@@ -1236,7 +1264,7 @@
     
         .successStories{
 
-            height:524px;
+            height:600px;
            
             background-color: #DFBA45;
             display:block;
@@ -1288,6 +1316,16 @@
                     }
                 }
             }
+
+            .our_artists{
+                text-align: left;
+                margin:auto;
+                margin-top:32px;
+                margin-bottom:64px;
+                margin-left: 16px;
+                font-size: 32px;
+                color:#fff;
+            }
         }
     
         /* Animation for sliding images */
@@ -1296,7 +1334,7 @@
             transform: translateX(0); /* Start at the initial position */
             }
             100% {
-            transform: translateX(-200%); /* Slide entire container to the left */
+            transform: translateX(-750%); /* Slide entire container to the left */
             }
         }
     
@@ -1312,7 +1350,7 @@
                 display: flex;
                 width: 499px;
                 // gap: 20px; /* Add some spacing between images */
-                animation: slide 20s linear infinite; /* Infinite sliding animation */
+                animation: slide 50s linear infinite; /* Infinite sliding animation */
     
                 .image-wrapper {
                     position: relative;
@@ -1392,10 +1430,10 @@
             // background-color: green;
 
             .copyright-wrapper{
-                margin-left:16px;
+                margin-left:10px;
 
                 .right{
-                    margin-left:-16px;
+                    margin-left:0px;
                 }
             }
 

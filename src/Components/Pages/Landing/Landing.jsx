@@ -37,11 +37,37 @@ function Landing() {
 
             <div className="left">
                 <motion.h2 initial={{ y: -30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.5 }}>
-                  Know us
+                  Know Us
                 </motion.h2>
 
                 <motion.p initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.7 }}>
-                MJunior Records…ultimate music label home of hits where beats and rhythm meet.. we all about promoting branding new upcoming artists from local to international into the world of fame and superstars in the music market from Tvs Radios social to global
+                {/* MJunior Records…ultimate music label home of hits where beats and rhythm meet.. we all about promoting branding new upcoming artists from local to international into the world of fame and superstars in the music market from Tvs Radios social to global */}
+                <h3>Welcome to Mjunior International Records</h3>
+
+                Mjunior International Records is a cutting-edge, independent record label and distributor based in South Africa. Founded in 2024, our mission is to empower artists and creators by providing innovative distribution solutions, publishing services, and expert industry guidance.
+
+                <h3>Our Vision</h3>
+                We strive to be a leading force in the global music industry, bridging the gap between emerging artists and international markets. By leveraging our extensive network, expertise, and passion for music, we aim to create new opportunities for artistic growth, collaboration, and success.
+
+                <h3>What We Do</h3>
+                At Mjunior International Records, we offer a comprehensive range of services designed to support artists at every stage of their career:
+
+                  <ul>
+                    <li>Music Distribution: We deliver your music to major streaming platforms, ensuring global visibility and accessibility.</li>
+                    <li>Publishing Services: Our expert team handles publishing administration, royalty collection, and copyright management.</li>
+                    <li>Artist Development: We provide guidance, mentorship, and industry insights to help emerging artists navigate the ever-changing music landscape.</li>
+                  </ul>
+
+                <h3>Our Values</h3>
+                <ul>
+                <li>Artistic Integrity: We prioritize creative freedom, empowering artists to produce authentic, innovative music.</li>
+                <li>Innovation: We stay ahead of the curve, embracing new technologies, trends, and opportunities.</li>
+                <li>Collaboration: We foster strong relationships with artists, industry partners, and stakeholders, driving mutual growth and success.</li>
+                </ul>
+                Join the Mjunior International Records Family
+                If you're an artist, producer, or industry professional looking for a dedicated partner to help you achieve your goals, we'd love to hear from you. Let's shape the future of music together!
+
+                Contact Us Now
                 </motion.p>
             </div>
 

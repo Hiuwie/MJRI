@@ -3,7 +3,7 @@ import React from 'react';
 const Stories = () => {
     return (
       <div className="successStories section">
-        <h2>Music production</h2>
+        <h2>Music Production</h2>
         <p>Get an exclusive look into the production process of our talented artists and discover the stories behind their latest releases.</p>
       
         <div className="previews-wrapper">
@@ -87,6 +87,8 @@ const Stories = () => {
 
           </div>
         </div>
+
+        <h2 className="our_artists"> Our Artists </h2>
       </div>
     );
   };

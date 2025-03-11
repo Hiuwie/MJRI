@@ -974,7 +974,7 @@ useEffect(() => {
               <div className="icon">
                 <img src="assets/Icons/Email.svg" alt="" />
               </div>
-              <p>Email address</p>
+              <p>queries@mjuniorrecordsinternational.co.za</p>
             </div>
 
 

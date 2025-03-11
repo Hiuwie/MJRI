@@ -29,7 +29,7 @@ function Services() {
 
   return (
     <div className="Services">
-      <h2>Our services to you</h2>
+      <h2>Our Services </h2>
 
       <div className="services-area">
 
@@ -50,7 +50,7 @@ function Services() {
 
           },
           {
-            label: "Music distribution",
+            label: "Music Distribution",
             description:
               `Get your music heard everywhere-Spotify, Apple Music, TikTok, you name it!
               Land your tracks in the hottest online stores like iTunes, Google Play, and Amazon Music
@@ -95,6 +95,7 @@ function Services() {
         ))}
         </div>
       </div>
+
     </div>
   );
 }

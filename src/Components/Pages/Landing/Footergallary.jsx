@@ -16,7 +16,7 @@ function Footergallary() {
           title: "Yosh B Bahati",
           description: "Afrobeat / Rap",
           music: "Click to view music",
-          link: "https://mjuniorrecordsinternational.co.za" // Add a valid URL
+          link: "https://onerpm.link/187146048170" // Add a valid URL
         },
         
         {
@@ -24,14 +24,14 @@ function Footergallary() {
           title: "Muki Mingo",
           description: "Bongofleva",
           music: "Click to view music",
-          link: "https://label-caster.ffm.to/uyix74212d" // Add a valid URL
+          link: "https://onerpm.link/569848313040" // Add a valid URL
         },
         {
           src: "assets/Gallary/photo_2025-01-07 15.51.55.jpeg",
           title: "Tees Papah",
-          description: "Rap artist ",
+          description: "Rap Artist ",
           music: "Click to view music",
-          link: "https://mjuniorrecordsinternational.co.za" // Add a valid URL
+          link: "https://label-caster.ffm.to/ek11kx1m8o" // Add a valid URL
         },
         {
           src: "assets/Gallary/photo_2025-01-07 15.47.39.jpeg",
@@ -68,7 +68,7 @@ function Footergallary() {
           title: "Ngoma Nagwa",
           description: "Singeli / Afrobeat",
           music: "Click to view music",
-          link: "https://mjuniorrecordsinternational.co.za" // Add a valid URL
+          link: "https://onerpm.link/541464576359" // Add a valid URL
       },
         {
             src: "assets/Gallary/photo_2024-11-29 13.37.55.jpeg",
@@ -82,7 +82,7 @@ function Footergallary() {
           title: "Mira Suka",
           description: "AfroCongo",
           music: "Click to view music",
-          link: "https://mjuniorrecordsinternational.co.za" // Add a valid URL
+          link: "https://label-caster.ffm.to/jrt3vh3267" // Add a valid URL
         },
         {
           src: "assets/Gallary/photo_2025-01-22 15.10.45.jpeg",
@@ -104,6 +104,9 @@ function Footergallary() {
   return (
 
   <div className="footergallery-container">
+
+
+
   <div className="sliding-images">
     {[...images, ...images].map((image, index) => (
       <a key={index} href={image.link} target="_blank" rel="noopener noreferrer" className="image-wrapper">

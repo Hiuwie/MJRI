@@ -34,13 +34,13 @@ function Header() {
                     <h1>
                         MJunior Records <br></br> International 
                     </h1>
-                    <p>
+                    {/* <p>
                         Make your booking now
-                    </p>
+                    </p> */}
 
                     <button onClick={handleBookingsClick}>
                         <p>
-                        Book a session now 
+                        JOIN NOW
                         </p>
                     </button>
                 </div>
