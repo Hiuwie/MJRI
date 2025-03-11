@@ -26,44 +26,15 @@
     </script>
 
 
-<!-- Elfsight Background Music | Untitled Background Music --> 
- <script src="https://static.elfsight.com/platform/platform.js" async></script> 
- 
- <div class="elfsight-app-c9a7d876-cfc6-43f7-b49d-ad7bca84fa19 music-thing" data-elfsight-app-lazy></div>
+    <!-- Page reload to landing -->
 
-  <style>
-    @media (max-width: 767px) {
-      div[class^="elfsight-app-c9a7d876-cfc6-43f7-b49d-ad7bca84fa19"] {
-        display: none !important;
+    <script>
+      if (window.location.pathname !== "/") {
+        window.location.replace("/");
       }
-    }
-  </style>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      if (window.innerWidth <= 767) {
-        const musicWidgetScript = document.querySelector('script[src*="elfsight.com"]');
-        if (musicWidgetScript) {
-          musicWidgetScript.remove(); // Prevents loading
-        }
-      }
-    });
-  </script>
+    </script>
 
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      function removeMusicWidget() {
-        const musicWidget = document.querySelector(".music-thing");
-        if (musicWidget && window.innerWidth <= 767) {
-          musicWidget.remove();
-        }
-      }
-
-      // Wait a bit to make sure the widget is injected
-      setTimeout(removeMusicWidget, 2000); // Adjust time if needed
-    });
-  </script>
 
 
   </head>
@@ -71,8 +42,6 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-
-    <!-- <div class="elfsight-app-c9a7d876-cfc6-43f7-b49d-ad7bca84fa19 music-thing elfsight" data-elfsight-app-lazy></div> -->
     
   </body>
 </html>

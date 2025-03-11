@@ -84,16 +84,16 @@ function Footergallary() {
           music: "Click to view music",
           link: "https://label-caster.ffm.to/jrt3vh3267" // Add a valid URL
         },
-        {
-          src: "assets/Gallary/photo_2025-01-22 15.10.45.jpeg",
-          title: "Youngz",
-          description: "Producer",
-          music: "Click to view music",
-          link: "https://mjuniorrecordsinternational.co.za" // Add a valid URL
-        },
+        // {
+        //   src: "assets/Gallary/photo_2025-01-22 15.10.45.jpeg",
+        //   title: "Yongz",
+        //   description: "Producer",
+        //   music: "Click to view music",
+        //   link: "https://mjuniorrecordsinternational.co.za" // Add a valid URL
+        // },
         {
           src: "assets/Gallary/photo_2025-01-22 15.12.30.jpeg",
-          title: " ",
+          title: "Yongz",
           description: "Producer",
           music: "Click to view music",
           link: "https://mjuniorrecordsinternational.co.za" // Add a valid URL
